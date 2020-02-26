@@ -9,7 +9,7 @@ Implementation of HiCSR framework described in this paper:
 
 > Michael C Dimmick, Leo J Lee, and Brendan J Frey  
 > HiCSR: a Hi-C super-resolution framework for producing highly realistic contact maps  
-> Bioarxiv Preprint  
+> biorxiv preprint  
 > [10.1101/2020.02.24.961714](https://www.biorxiv.org/content/10.1101/2020.02.24.961714v1)
 
 <!-- ABOUT HiCSR -->
