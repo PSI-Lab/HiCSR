@@ -1,0 +1,45 @@
+{ 
+    "DAE":
+     {   "batch_size": 256,
+        "epochs": 600,
+        "learning_rate": 0.005,
+        "noise_scale": 0.1,
+        "gpu": 0,
+        "num_workers": 8},
+
+      "HiCSR":
+    {   "lambda_a": 2.5e-3,
+        "lambda_f": 1,
+        "lambda_1": 1,
+        "G_optimizer": "adam",
+        "G_learning_rate": 1e-5,
+        "D_optimizer": "adam",
+        "D_learning_rate": 1e-5,
+        "beta_1": 0.9,
+        "beta_2": 0.99,
+        "epochs": 500,
+        "batch_size": 128,
+        "res_blocks": 15},
+
+    "test_DAE":
+    {   "batch_size": 256,
+        "epochs": 5,
+        "learning_rate": 0.005,
+        "noise_scale": 0.1,
+        "gpu": 0,
+        "num_workers": 8},
+
+    "test_HiCSR":
+    {   "lambda_a": 2.5e-3,
+        "lambda_f": 1,
+        "lambda_1": 1,
+        "G_optimizer": "adam",
+        "G_learning_rate": 1e-5,
+        "D_optimizer": "adam",
+        "D_learning_rate": 1e-5,
+        "beta_1": 0.9,
+        "beta_2": 0.99,
+        "epochs": 5,
+        "batch_size": 128,
+        "res_blocks": 15}
+}
