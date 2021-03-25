@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 REQUIRED_PACKAGES = [
               "numpy==1.16.3",
-              "pyyaml==5.3",
+              "pyyaml==5.4",
               "matplotlib==3.1.3",
               "tensorboard==2.0.0",
               "torch==1.4.0",
