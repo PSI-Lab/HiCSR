@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 REQUIRED_PACKAGES = [
-              "numpy==1.16.3",
+              "numpy==1.22.0",
               "pyyaml==5.3",
               "matplotlib==3.1.3",
               "tensorboard==2.0.0",
